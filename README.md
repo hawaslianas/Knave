@@ -1,54 +1,58 @@
-# KNAVE: 2 DOF Five Bar Haptic Device
+# KNAVE Haptic Device: Code Structure Overview
 
-## Project Overview
+This repository contains the cleaned and organized code for the KNAVE 2-DOF Five Bar Haptic Device. The codebase is split into two main components:
 
-KNAVE is a 2 Degrees of Freedom (DOF) Five Bar parallel manipulator providing haptic (force feedback) interaction for applications such as neuromotor rehabilitation. The device achieves precise position and force control using real-time impedance and torque control algorithms.
+## Structure
 
-## Hardware Components (Code-Relevant)
+```
+firmware/
+  Haptic_Control_CODEX.ino
+pc_gui/
+  WindowsFormsApp1/ (C# Windows Forms GUI)
+README.md
+```
 
-- **Actuation:** DC motors with gearbox (Capstan Drive mechanism)
-- **Sensing:** Rotary encoders (E50S) for position feedback
-- **Controller:** SAM3X8E ARM Cortex 32-bit microcontroller
-- **Motor Drivers:** H-Bridge modules (BTS7960B, IBT-2)
-- **PWM Generation:** TL494 IC
-- **Current Sensing:** Analog feedback and conditioning circuits
+---
 
+## 1. Embedded Firmware (`firmware/`)
+- **Platform:** Arduino Due (SAM3X8E ARM Cortex MCU)
+- **Main File:** `Haptic_Control_CODEX.ino`
+- **Responsibilities:**
+  - Read rotary encoders for joint positions
+  - Compute kinematics and dynamics
+  - Implement real-time control (impedance, torque, PID)
+  - Generate PWM for motor drivers
+  - Communicate with the PC GUI via serial
 
-## Control Algorithms
+### How to Use
+1. Open `firmware/Haptic_Control_CODEX.ino` in the Arduino IDE.
+2. Select the Arduino Due board and correct port.
+3. Upload to the device.
 
-- **Impedance Control:** Implements dynamic force feedback based on user interaction and virtual environment modeling.
-- **Torque Control:** Uses PID controllers, tuned for each motor, to regulate current and achieve desired torque.
-- **Dynamic Model:** Real-time computation of robot dynamics for accurate control.
-- **Closed-Loop Current Control:** Ensures precise actuation using sensor feedback.
+---
 
+## 2. PC GUI (`pc_gui/WindowsFormsApp1/`)
+- **Platform:** Windows (C# .NET Framework, Visual Studio)
+- **Main Project:** `WindowsFormsApp1`
+- **Responsibilities:**
+  - Provide a graphical interface for device control and monitoring
+  - Communicate with the embedded firmware via serial
+  - Send commands, receive data, and visualize device state
 
-## Software Interface
+### How to Use
+1. Open `pc_gui/WindowsFormsApp1/WindowsFormsApp1.csproj` in Visual Studio.
+2. Build and run the project.
+3. Connect to the device via the appropriate COM port.
 
-- **PC GUI:** Developed in C\# for real-time monitoring, parameter tuning, and user interaction.
-- **Communication:** Serial connection between PC and microcontroller for command transmission and data feedback.
+---
 
+## Notes
+- All legacy, duplicate, and test code has been removed for clarity.
+- Only the latest, working versions are retained.
+- For technical details, refer to the code comments and documentation within each main file.
 
-## Programming Languages \& Tools
+---
 
-- **Embedded C/C++:** Firmware for the SAM3X8E microcontroller.
-- **C\#:** Windows application for the graphical user interface.
-- **Simulation/Design:** Autodesk Inventor (mechanical), PROTEUS (circuit simulation).
-
-
-## Build \& Run Instructions
-
-1. **Firmware:**
-    - Compile embedded code for the SAM3X8E microcontroller using an ARM-compatible toolchain.
-    - Upload the compiled firmware to the microcontroller.
-2. **PC Application:**
-    - Build and run the C\# GUI application on a Windows PC.
-3. **Connection:**
-    - Connect the device to the PC via serial port (USB/RS232).
-    - Use the GUI to interact with and monitor the system.
-
-## Additional Notes
-
-- PID parameters should be calibrated for optimal performance.
-- Hardware setup includes custom 3D-printed parts and PCBs.
-- The codebase covers embedded firmware, PC GUI, and communication protocols only. For mechanical assembly and hardware design, refer to the project documentation.
+**Maintainer:** [Your Name]
+**Last Cleaned:** July 2025
 
