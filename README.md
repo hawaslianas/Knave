@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # KNAVE: 2 DOF Five Bar Haptic Device
 
 ## Project Overview
