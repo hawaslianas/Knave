@@ -1,0 +1,20 @@
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Seven\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+G:\Documents\HIAST-Edu\5th year\Internal FIles\V_Project\Control\User Interface\Visual Studio\Knave\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
